@@ -179,7 +179,9 @@ nav {
   overflow: hidden;
   background-color: #464d77;
   text-decoration: none;
-
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav a {
