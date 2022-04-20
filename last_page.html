@@ -23,58 +23,84 @@
 	<title>Beach Photography</title>
 </head>
 
-<body>
+<body class="parallax">
 	<header>
-        <a class="skip" href="#main">Skip to Main Content</a><br><br>
+    <div id="skip">
+      <a href="#traget4">Skip to Main Content </a> <br><br>
+    </div>
     <header>
       <nav>
         <ul>
           <li></li>
-          <li class="active"><a href = "index.html" >About Me</a></li>
+          <li ><a href = "index.html" >About Me</a></li>
           <li><a href = "second_page.html">Pictures</a></li>
           <li><a href = "third_page.html">Sunset Pictures</a></li>
-          <li><a href = "last_page.html">Contact</a></li>
+          <li ><a class="active" href = "last_page.html">Contact</a></li>
         </ul>
       </nav>
-      <h1>Beach Photography</h1>
+      <h1>Contact</h1>
     </header>
 
-<main id="main">
+<main id="traget4">
     <p>
 Thank you so much for viewing my page. I hope you found the beach pictures good to look at.
 If you would like to view more pictures like these, you can let us know!
-Fill in your info here and we'll get back to you:
-Name:
-Email:
-Contact Info:
-Comments:</p>
+Fill in your info here and we'll get back to you:</p>
+<br>
 <form
   action="https://formspree.io/f/xvolbokj"
   method="POST"
 >
-  <label>
+<div class="form-container">
+  <label class="form-header">
     Your name:
+    <br>
     <input type="message" name="name">
   </label>
-  <label>
+  <br>
+  <label class="form-header">
     Your email:
+    <br>
     <input type="email" name="email">
   </label>
-  <label>
+  <br>
+  <label class="form-header">
     Contact Info:
+    <br>
     <input type="number" name="Contact">
   </label>
-  <label>
+  <br>
+  <label class="form-header">
     Comments:
+    <br>
     <textarea name="message"></textarea>
   </label>
+</div>
+
   <!-- your other form fields go here -->
-  <button type="submit">Send</button>
+  <button class = "submit" type="submit">Send</button>
 </form>
-</main>
+<br>
+<br>
+<br>
+<br>
+<div class="flip-card">
+  <div class="flip-card-inner">
+    <div class="flip-card-front">
+      <img src="../mobileview/images/seayalater.png" alt="Avatar">
+    </div>
+    <div class="flip-card-back">
+      <p>Look forward to hearing from you!</p>
+    </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
 
 <footer>
-    <p> Zaahra Ali &copy; 2022</p>
-  </footer>
-  </body>
-  </html>
+  <p> Zaahra Ali &copy; 2022</p>
+</footer>
+</body>
+</html>
